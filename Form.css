@@ -1,0 +1,41 @@
+.container{
+    height: 50vh;
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 200, 124);
+    padding-bottom: 20px;
+    margin-top:150px;
+}
+.in{
+    border-radius: 5px;
+    border-color: rgb(159, 156, 156);
+}
+h3{
+    text-align: center;
+}
+.left_h{
+    width: 50%;
+    background-color:transparent;
+    height:220px;
+    display: flex;
+}
+.submitbtn{
+    border-radius: 5px;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+.submitbtn:hover{
+    background-color:green;
+
+}
+.icon{
+    cursor: pointer;
+}
+.right_h{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
